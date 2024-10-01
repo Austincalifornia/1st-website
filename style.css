@@ -1,0 +1,40 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(images/multi-layers-brown-green-texture-3d-papercut-layers-in-gradient-banner-abstract-paper-cut-art-background-design-for-website-template-topography-map-concept-or-smooth-origami-paper-cut-vector.jpg);
+}
+
+h1{
+
+font-size: 3.5rem;
+color: rgb(255, 255, 255);
+
+
+}
+
+.buttons{
+
+margin: 30px;
+
+}
+
+.buttons button{
+
+font-size: 4.5rem;
+min-width: 160px;
+margin: 0,10px;
+border-radius: 250px;
+background-color: #C4A484;
+cursor: pointer;
+transition: background-color 0.5s ease;
+border: none;
+}
+.buttons button :hover{
+
+    background-color: hsl(200, 75%, 100%);
+
+}
